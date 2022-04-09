@@ -11,7 +11,7 @@ part 'register_state.dart';
 class RegisterCubit extends Cubit<RegisterState> {
   RegisterCubit() : super(RegisterInitial());
 
-  signIn(UserModel userModel) async {
+  signUp(UserModel userModel) async {
     FirebaseAuth _auth = FirebaseAuth.instance;
     CollectionReference users = FirebaseFirestore.instance.collection("users");
     emit(RegisterLoading());

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shop/presentation/screens/auth/login.dart';
-import 'package:shop/presentation/screens/auth/regisster.dart';
+import 'package:shop/presentation/screens/auth/register.dart';
 import 'package:shop/utils/strings.dart';
 
 class AppRouter {
